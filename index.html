@@ -1,18 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/favico/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Rocketflix</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="shortcut icon" href="/assets/favico/favicon.ico" type="image/x-icon">
-  <title>Rocketflix</title>
-</head>
+  <body>
+    <section class="container-wrapper">
+      <div class="container-aleatory-icon">
+        <img src="assets/shuffle.svg" alt="a 'aleatory mode' image" />
+      </div>
 
-<body>
+      <main class="container-main">
+        <h1 class="element-mainTitle">Não sabe o que assistir?</h1>
 
-  <script type="module" src="main.js"></script>
-</body>
+        <section class="container-cardMovie">
+          <img src="assets/banner-image.png" alt="this image represents a movie banner" />
+          <h2 class="element-movieTitle">Os Caça-Fantasmas</h2>
+          <p class="element-movieResume">
+            Em Nova York Peter Venkman, Ray Stantz e Egon Spengler são três
+            cientistas do departamento de psicologia da Columbia University, que
+            se dedicam ao estudo de casos paranormais. Quando a subvenção
+            termina eles são despedidos e Venkman sugere que abram um negócio
+            próprio, a exterminadora de fantasmas Ghostbusters. Inicialmente
+            eles só têm despesas e nenhum cliente, mas eis que surge Dana
+            Barrett, uma violoncelista que teve uma experiência assustadora em
+            seu apartamento.
+          </p>
+        </section>
 
+        <button class="element-searchMovie-button">
+          <img src="assets/shuffle.svg" alt="a aleatory-icon image" />
+          <h2>Encontrar filme</h2>
+        </button>
+
+        <p class="element-tutorial-paragraf">
+          Clique em "Encontrar filme" que traremos informações de algum filme
+          para você assistir hoje.
+        </p>
+      </main>
+    </section>
+
+    <script type="module" src="main.js"></script>
+  </body>
 </html>
