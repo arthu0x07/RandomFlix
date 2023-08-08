@@ -19,6 +19,7 @@ body {
   background: var(--background) no-repeat fixed;
   background-size: cover;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .container-wrapper {
@@ -60,6 +61,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  text-align: center;
 }
 
 .container-cardMovie {
@@ -132,10 +134,14 @@ body {
 
 .element-tutorial-paragraf {
   max-width: 380px;
-  color: var(--title);
+
   text-align: center;
+  color: var(--title);
   font-size: 14px;
-  line-height: normal;
   font-weight: 400;
+  line-height: normal;
+
+
   margin-top: 26px;
+  margin-bottom: 100px;
 }

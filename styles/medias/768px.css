@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+  .container-wrapper {
+    padding: 0 16px;
+  }
+
+  .container-cardMovie {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cardMovie-infos {
+    margin: unset;
+    margin-top: 16px;
+  }
+
+  .element-movieTitle {
+    position: initial;
+    text-align: center;
+  }
+
+  .element-movieResume {
+    text-align: center;
+
+    margin: unset;
+    margin-top: 19px;
+  }
+}
