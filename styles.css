@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --title: #fffcf9;
+  --subtitle: #b3b3b3;
+  --bg-button: #e9e6e3;
+  --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.75%;
+}
+
+body {
+  background: var(--background) no-repeat fixed;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.container-wrapper {
+  max-width: 1366px;
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-aleatory-icon {
+  width: 87px;
+  height: 62px;
+
+  margin-top: 12.6rem;
+}
+
+.container-aleatory-icon > img {
+  width: 100%;
+  height: 100%;
+}
+
+.container-main {
+  margin-top: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-element-mainTitle {
+  color: #fffcf9;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container-cardMovie {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 628px;
+  margin-top: 42px;
+}
+
+.cardMovie-image {
+  width: 171px;
+  height: 242px;
+}
+
+.cardMovie-infos {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 3.4rem;
+
+  color: #fffcf9;
+  font-family: Poppins;
+  font-style: normal;
+  line-height: normal;
+}
+
+.element-movieTitle {
+  font-size: 2rem;
+  font-weight: 700;
+
+  position: relative;
+  bottom: 12px;
+}
+
+.element-movieResume {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-top: calc(19px - 12px);
+  line-height: normal;
+}
+
+.element-searchMovie-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 17px;
+
+  border-radius: 5px;
+  border: 2px solid #1a1a1a;
+  background: #fffcf9;
+
+  padding: 11px 13px;
+  margin-top: 30px;
+
+  cursor: pointer;
+}
+
+.element-searchMovie-button > img {
+  width: 35px;
+  height: 25px;
+}
+
+.element-searchMovie-button > h2 {
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.element-tutorial-paragraf {
+  max-width: 380px;
+  color: var(--title);
+  text-align: center;
+  font-size: 14px;
+  line-height: normal;
+  font-weight: 400;
+  margin-top: 26px;
+}
