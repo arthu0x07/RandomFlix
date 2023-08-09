@@ -1,17 +1,17 @@
 import { getMovieListByPage } from "./services/api/movies.js";
 
-const movieList = [{}];
 const buttonElement = document.querySelector(".element-searchMovie-button");
 buttonElement.addEventListener("click", handleSearchMovie);
 
+const movieList = [{}];
 let listMovieIndex = 0;
 window.globalPageIndex = 1;
 
 function handleSearchMovie() {
   const { title, overview, poster_path } =
     movieList[window.globalPageIndex][listMovieIndex];
-  renderMovieCard(title, overview, poster_path);
 
+  renderMovieCard(title, overview, poster_path);
   managerPageAndIndex();
 }
 

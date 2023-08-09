@@ -19,8 +19,6 @@ export async function getMovieListByPage(page = 1) {
       options
     );
 
-    console.log(window.globalPageIndex);
-
     return response.json();
   } catch (e) {
     console.error("error", e);
